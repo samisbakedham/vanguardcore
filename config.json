@@ -1,4 +1,4 @@
-﻿{
+{
     "logging": {
         "level": "info",
         "enableConsoleLog": true,
@@ -32,7 +32,7 @@
             "host": "127.0.0.1",
             "port": 5432,
             "user": "miningcore",
-            "password": "password",
+            "password": "Family0011$$",
             "database": "miningcore"
         }
     },
@@ -42,10 +42,10 @@
         "shareRecoveryFile": "recovered-shares.txt"
     },
     "pools": [{
-      "id": "xmr1",
+      "id": "clc1",
       "enabled": true,
       "coin": "monero",
-      "randomXRealm": "xmr1",
+      "randomXRealm": "clc1",
       "address": "43g9avHw8WYHnq749LU1Nw1BZ8FCwS2B7GLoW4vif7cPjJB7e9f6WgU8ptDFM7kyNS9kz1zy334dAYFKgP2KJU8vMoZ3hYD",
       "rewardRecipients": [
         {
@@ -102,13 +102,13 @@
       "daemons": [
         {
           "host": "127.0.0.1",
-          "port": 18081,
+          "port": 28081,
            "user": "user",
           "password": "password"
        },
         {
           "host": "127.0.0.1",
-          "port": 18082,
+          "port": 28082,
           "user": "user",
           "password": "password",
           "category": "wallet"
